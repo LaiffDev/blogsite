@@ -51,7 +51,7 @@ a{
    display:flex;
    align-items: center;
    justify-content: space-around;
-   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/lukas.jpg');
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/blogsite/images/lukas.jpg');
    height: 80vh;
    background-repeat: no-repeat;
    background-attachment:fixed;
@@ -309,4 +309,37 @@ form{
    color: white;
    padding: 20px;
    text-align:center;
+}
+
+
+/* media queries */
+@media screen and (max-width: 600px){
+   .post-cards{
+      display: block;
+   }
+
+   .footer{
+      width: 100%;
+   }
+
+   .left{
+      border-left: none;
+   }
+
+   .main-container{
+      padding: 15px;
+   }
+
+   .content-wrapper{
+      display: block;
+      text-align: center;
+   }
+
+   .content-wrapper h2 {
+      font-size: 40px;
+   }
+
+   #mail{
+      margin-bottom: 30px;
+   }
 }

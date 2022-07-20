@@ -342,4 +342,8 @@ form{
    #mail{
       margin-bottom: 30px;
    }
+
+   .card-wrapper{
+      margin-bottom: 20px;
+   }
 }
